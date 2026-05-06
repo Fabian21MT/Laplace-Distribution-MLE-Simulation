@@ -125,6 +125,7 @@ The following quantities are studied:
 ## Bias of the MLE
 
 ![Bias Plot](Images/bias_plot.png)
+---
 The bias remains close to zero across different sample sizes, showing that the sample median behaves approximately as an unbiased estimator.
 
 ---
@@ -132,6 +133,7 @@ The bias remains close to zero across different sample sizes, showing that the s
 ## Variance vs CRLB
 
 ![Variance vs CRLB](Images/Variance_of_MLE_vs_CRLB.png)
+---
 The variance decreases as the sample size increases and approaches the theoretical Cramér–Rao lower bound.
 
 ---
@@ -139,6 +141,7 @@ The variance decreases as the sample size increases and approaches the theoretic
 ## Mean Squared Error (MSE)
 
 ![MSE Plot](Images/MSE_of_median_MLE_vs_n.png)
+---
 The MSE decreases as the sample size increases, indicating improved estimator accuracy for larger samples.
 
 ---
@@ -150,41 +153,3 @@ The MSE decreases as the sample size increases, indicating improved estimator ac
 * Variance and MSE decrease with increasing sample size.
 * The estimator approaches the CRLB for large (n).
 * Likelihood-ratio confidence intervals closely match asymptotic intervals in this simulation.
-
----
-
-# Requirements
-
-Install R from:
-
-* [https://cran.r-project.org/](https://cran.r-project.org/)
-
-Optional IDE:
-
-* [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
-
----
-
-# Running the Project
-
-Run the script in R or RStudio:
-
-```r
-source("laplace_mle_simulation.R")
-```
-
-The script will:
-
-* generate simulated data
-* compute estimators
-* display confidence intervals
-* generate plots
-
----
-
-# Author
-
-Created as part of a statistical simulation and estimation project using R.
-
-```
-```
