@@ -78,8 +78,7 @@ The log-likelihood function is evaluated across a grid of (\theta) values to vis
 
 ### Log-Likelihood Plot
 
-![Log-Likelihood Plot](images/loglikelihood_plot.png)
-
+![Log-Likelihood Plot](Images/Log-likelihood_for_first_sample.png)
 ---
 
 ## 4. Confidence Intervals
@@ -132,16 +131,14 @@ The bias remains close to zero across different sample sizes, showing that the s
 
 ## Variance vs CRLB
 
-![Variance vs CRLB](images/variance_vs_crlb.png)
-
+![Variance vs CRLB](Images/Variance_of_MLE_vs_CRLB.png)
 The variance decreases as the sample size increases and approaches the theoretical Cramér–Rao lower bound.
 
 ---
 
 ## Mean Squared Error (MSE)
 
-![MSE Plot](images/mse_plot.png)
-
+![MSE Plot](Images/MSE_of_median_MLE_vs_n.png)
 The MSE decreases as the sample size increases, indicating improved estimator accuracy for larger samples.
 
 ---
