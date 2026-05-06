@@ -78,8 +78,8 @@ The log-likelihood function is evaluated across a grid of (\theta) values to vis
 
 ### Log-Likelihood Plot
 
-![Log-Likelihood Plot](Images/loglikelihood_plot.png)---
-
+![Log-Likelihood Plot](Images/loglikelihood_plot.png)
+---
 
 ## 4. Confidence Intervals
 
