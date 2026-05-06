@@ -125,7 +125,7 @@ The following quantities are studied:
 
 ## Bias of the MLE
 
-![Bias Plot](Images/Bias_Plot.png)
+![Bias Plot](Images/Bias Plot.png)
 
 The bias remains close to zero across different sample sizes, showing that the sample median behaves approximately as an unbiased estimator.
 
